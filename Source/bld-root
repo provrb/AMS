@@ -1,0 +1,30 @@
+Headers/backend.h 
+Headers/browser.h 
+Headers/ccmds.h 
+Headers/ccolors.h 
+Headers/cli.h 
+Headers/client.h 
+Headers/flags.h 
+Headers/root.h 
+Headers/server.h 
+Headers/tools.h
+Headers/min_max_values.h
+Headers/crossplatform_threads.h
+
+backend.c 
+browser.c 
+ccmds.c 
+cli.c 
+client.c 
+root.c 
+server.c 
+tools.c
+crossplatform_threads.c
+
+
+main_root.c
+
+-o ../root
+
+Headers/backend.h  Headers/browser.h  Headers/ccmds.h  Headers/ccolors.h  Headers/cli.h  Headers/client.h  Headers/flags.h  Headers/root.h  Headers/server.h  Headers/tools.h Headers/min_max_values.h Headers/crossplatform_threads.h
+backend.c  browser.c  ccmds.c  cli.c  client.c  root.c  server.c  tools.c crossplatform_threads.c main_root.c -o ../root
