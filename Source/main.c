@@ -56,10 +56,7 @@ int main()
     */
     cpthread tinfo = cpThreadCreate(LoadClientUserInterface, NULL);
     
-    // cpThreadCreate(ReceiveRootRequestsAsClient, NULL);
-        // DisconnectClient(localClient);
     cpThreadJoin(tinfo);
-    // pthread_join(pid, NULL);
 
     return 0;
 }
